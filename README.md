@@ -33,6 +33,15 @@ kaplay();
 addSimplePlatform();
 ```
 
+#### Parameters
+
+A simple platform can take the following parameters:
+
+| Parameter | Type     | Default | Required | Description     |
+| --------- | -------- | ------- | -------- | --------------- |
+| `h`       | `number` | 48      | ❌ No    | Platform height |
+| `colour`  | `Color`  | WHITE   | ❌ No    | Platform color  |
+
 <br>
 
 ### Sprite platform
@@ -53,6 +62,59 @@ loadSprite("platform", "graphics/platforms.png");
 
 addSpritePlatform("platform", 65);
 ```
+
+#### Parameters
+
+A sprite platform takes the following parameters:
+
+| Parameter    | Type     | Default | Required | Description                                   |
+| ------------ | -------- | ------- | -------- | --------------------------------------------- |
+| `spriteName` | `string` | N/A     | ✅ Yes   | Name of previously loaded sprite for platform |
+| `h`          | `number` | N/A     | ✅ Yes   | Height of platform                            |
+
+<br>
+
+### Scrolling sprite platform
+
+Example usage of a scrolling sprite platform in your kaplay project:
+
+```javascript
+import kaplay from "kaplay";
+import "kaplay/global";
+
+import { addScrollingSpritePlatform } from "kaplay-platforms";
+
+kaplay({
+  debugKey: "d",
+  width: 1280,
+  height: 1080,
+  letterbox: true,
+});
+
+loadSprite("platform", "graphics/platforms.png");
+
+addSpritePlatform("platform", 65, 200);
+```
+
+#### Parameters
+
+A scrolling sprite platform takes the following parameters:
+
+| Parameter      | Type     | Default | Required | Description                                   |
+| -------------- | -------- | ------- | -------- | --------------------------------------------- |
+| `spriteName`   | `string` | N/A     | ✅ Yes   | Name of previously loaded sprite for platform |
+| `spriteHeight` | `number` | N/A     | ✅ Yes   | Height of platform                            |
+| `scrollSpeed`  | `number` | N/A     | ✅ Yes   | Scroll speed of platform                      |
+
+<br>
+
+#### State
+
+A cehckbox has the following state:
+
+| state   | Type     | Initial value                   |
+| ------- | -------- | ------------------------------- |
+| `speed` | `number` | value of `scrollSpeed`parameter |
 
 <br>
 
