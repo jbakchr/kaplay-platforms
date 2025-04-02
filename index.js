@@ -13,3 +13,14 @@ export const addSimplePlatform = (h = 48, colour = WHITE) => {
 
   return platform;
 };
+
+export const addSpritePlatform = (spriteName, h) => {
+  const platform = add([
+    sprite(spriteName),
+    pos(0, height() - h),
+    area(),
+    body({ isStatic: true }),
+  ]);
+
+  return platform;
+};
