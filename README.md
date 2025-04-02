@@ -110,7 +110,7 @@ A scrolling sprite platform takes the following parameters:
 
 #### State
 
-A cehckbox has the following state:
+The scrolling sprite platform has the following state:
 
 | state   | Type     | Initial value                   |
 | ------- | -------- | ------------------------------- |
