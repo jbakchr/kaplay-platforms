@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "kaplay": "^3001.0.10"
+  },
+  "name": "kaplay-platforms",
+  "version": "0.1.0",
+  "description": "Platforms for KAPLAY gmaes",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbakchr/kaplay-platforms.git"
+  },
+  "keywords": [
+    "kaplay",
+    "platforms",
+    "platform",
+    "games",
+    "game"
+  ],
+  "author": "Jonas Bak Phillipson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbakchr/kaplay-platforms/issues"
+  },
+  "homepage": "https://github.com/jbakchr/kaplay-platforms#readme"
+}
