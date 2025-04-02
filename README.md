@@ -12,7 +12,15 @@ npm i kaplay-platforms
 
 ## 🚀 Usage
 
-Import a simple platform into your kaplay project:
+This makes the following platforms available:
+
+- Simple platform
+- Sprite platform
+- Scrolling sprite platform
+
+### Simple platform
+
+Example usage of a simple platform in your kaplay project:
 
 ```javascript
 import kaplay from "kaplay";
@@ -23,6 +31,27 @@ import { addSimplePlatform } from "kaplay-platforms";
 kaplay();
 
 addSimplePlatform();
+```
+
+<br>
+
+### Sprite platform
+
+Example usage of a sprite platform in your kaplay project:
+
+```javascript
+import kaplay from "kaplay";
+import "kaplay/global";
+
+import { addSpritePlatform } from "kaplay-platforms";
+
+kaplay({
+  width: 1280,
+});
+
+loadSprite("platform", "graphics/platforms.png");
+
+addSpritePlatform("platform", 65);
 ```
 
 <br>
