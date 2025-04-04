@@ -1,6 +1,6 @@
 # KAPLAY Platforms
 
-A simple npm package that allows you to easily add platforms to the bottom of your KAPLAY game.
+A simple npm package that allows you to easily add platforms to the <u>_**bottom**_</u> of your KAPLAY game.
 
 ## 📦 Installation
 
@@ -22,7 +22,7 @@ This package makes the following platforms available:
 
 ### Simple platform
 
-Example usage of a simple platform in your kaplay project:
+Example usage of adding a simple platform at the _bottom_ of your kaplay game:
 
 ```javascript
 import kaplay from "kaplay";
@@ -48,7 +48,7 @@ A simple platform can take the following parameters:
 
 ### Sprite platform
 
-Example usage of a sprite platform in your kaplay project:
+Example usage of a sprite platform  at the _bottom_ of your kaplay game:
 
 ```javascript
 import kaplay from "kaplay";
@@ -78,7 +78,7 @@ A sprite platform takes the following parameters:
 
 ### Scrolling sprite platform
 
-Example usage of a scrolling sprite platform in your kaplay project:
+Example usage of a scrolling sprite platform at the _bottom_ of your kaplay game:
 
 ```javascript
 import kaplay from "kaplay";

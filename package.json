@@ -3,7 +3,7 @@
     "kaplay": "^3001.0.10"
   },
   "name": "kaplay-platforms",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Platforms for KAPLAY gmaes",
   "main": "index.js",
   "repository": {
